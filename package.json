@@ -20,7 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "discord-interactions": "^3.0.0",
-    "itty-router": "^2.5.1"
+    "itty-router": "^2.5.1",
+    "luxon": "^3.3.0"
   },
   "devDependencies": {
     "c8": "^7.11.0",

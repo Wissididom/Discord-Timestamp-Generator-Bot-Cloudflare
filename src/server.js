@@ -8,8 +8,11 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { AWW_COMMAND, INVITE_COMMAND } from './commands.js';
-import { getCuteUrl } from './reddit.js';
+import {
+  TIMESTAMP_COMMAND,
+  CURRENT_TIMESTAMP_COMMAND,
+  INVITE_COMMAND,
+} from './commands.js';
 
 class JsonResponse extends Response {
   constructor(body, init) {
@@ -52,13 +55,23 @@ router.post('/', async (request, env) => {
   if (message.type === InteractionType.APPLICATION_COMMAND) {
     // Most user commands will come as `APPLICATION_COMMAND`.
     switch (message.data.name.toLowerCase()) {
-      case AWW_COMMAND.name.toLowerCase(): {
-        console.log('handling cute request');
-        const cuteUrl = await getCuteUrl();
+      case TIMESTAMP_COMMAND.name.toLowerCase(): {
+        // TODO: Generate given timestamp
         return new JsonResponse({
           type: 4,
           data: {
-            content: cuteUrl,
+            content: `TODO: timestamp`,
+            flags: 64,
+          },
+        });
+      }
+      case CURRENT_TIMESTAMP_COMMAND.name.toLowerCase(): {
+        // TODO: Generate current timestamp
+        return new JsonResponse({
+          type: 4,
+          data: {
+            content: `TODO: timestamp`,
+            flags: 64,
           },
         });
       }

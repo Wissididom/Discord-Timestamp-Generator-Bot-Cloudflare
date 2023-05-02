@@ -1,4 +1,8 @@
-import { AWW_COMMAND, INVITE_COMMAND } from './commands.js';
+import {
+  TIMESTAMP_COMMAND,
+  CURRENT_TIMESTAMP_COMMAND,
+  INVITE_COMMAND,
+} from './commands.js';
 import fetch from 'node-fetch';
 
 /**
@@ -64,7 +68,11 @@ async function registerCommands(url) {
       Authorization: `Bot ${token}`,
     },
     method: 'PUT',
-    body: JSON.stringify([AWW_COMMAND, INVITE_COMMAND]),
+    body: JSON.stringify([
+      TIMESTAMP_COMMAND,
+      CURRENT_TIMESTAMP_COMMAND,
+      INVITE_COMMAND,
+    ]),
   });
 
   if (response.ok) {

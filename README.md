@@ -1,10 +1,6 @@
-# Cloudflare worker example app
+# Discord-Timestamp-Generator-Bot-Cloudflare
 
-awwbot is an example app that brings the cuteness of `r/aww` straight to your Discord server, hosted on Cloudflare workers. Cloudflare Workers are a convenient way to host Discord bots due to the free tier, simple development model, and automatically managed environment (no VMs!).
-
-The tutorial for building awwbot is [in the developer documentation](https://discord.com/developers/docs/tutorials/hosting-on-cloudflare-workers)
-
-![awwbot in action](https://user-images.githubusercontent.com/534619/157503404-a6c79d1b-f0d0-40c2-93cb-164f9df7c138.gif)
+TODO
 
 ## Resources used
 
@@ -71,12 +67,12 @@ $ wrangler secret put DISCORD_TEST_GUILD_ID
 
 First clone the project:
 ```
-git clone https://github.com/discord/cloudflare-sample-app.git
+git clone https://github.com/Wissididom/Discord-Timestamp-Generator-Bot-Cloudflare.git
 ```
 
 Then navigate to its directory and install dependencies:
 ```
-cd cloudflare-sample-app
+cd Discord-Timestamp-Generator-Bot-Cloudflare
 npm install
 ```
 
@@ -135,6 +131,4 @@ release:
         CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 ```
 
-## Questions?
-
-Feel free to post an issue here, or reach out to [@justinbeckwith](https://twitter.com/JustinBeckwith)!
+This Repository is based on https://github.com/discord/cloudflare-sample-app
