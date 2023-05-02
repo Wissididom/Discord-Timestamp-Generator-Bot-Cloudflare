@@ -59,7 +59,7 @@ export const TIMESTAMP_COMMAND = {
     {
       name: 'public',
       description:
-       'Should the response be visible to everyone? (Default: False)',
+        'Should the response be visible to everyone? (Default: False)',
       required: false,
       type: ApplicationCommandOptionType.Boolean,
     },
@@ -74,7 +74,7 @@ export const CURRENT_TIMESTAMP_COMMAND = {
     {
       name: 'public',
       description:
-       'Should the response be visible to everyone? (Default: False)',
+        'Should the response be visible to everyone? (Default: False)',
       required: false,
       type: ApplicationCommandOptionType.Boolean,
     },
