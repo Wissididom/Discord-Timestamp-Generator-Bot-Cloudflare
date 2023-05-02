@@ -1,6 +1,6 @@
 import {
   ApplicationCommandType,
-  ApplicationCommandOptionType
+  ApplicationCommandOptionType,
 } from 'discord-interactions';
 
 /**
@@ -17,52 +17,52 @@ export const TIMESTAMP_COMMAND = {
       name: 'day',
       description: 'Day (1 - 31)',
       required: true,
-      type: ApplicationCommandOptionType.Integer
+      type: ApplicationCommandOptionType.Integer,
     },
     {
       name: 'month',
       description: 'Month (1 - 12)',
       required: true,
-      type: ApplicationCommandOptionType.Integer
+      type: ApplicationCommandOptionType.Integer,
     },
     {
       name: 'year',
       description: 'Year (min. 1970)',
       required: true,
-      type: ApplicationCommandOptionType.Integer
+      type: ApplicationCommandOptionType.Integer,
     },
     {
       name: 'hour',
       description: 'Hour (0 - 23)',
       required: true,
-      type: ApplicationCommandOptionType.Integer
+      type: ApplicationCommandOptionType.Integer,
     },
     {
       name: 'minute',
       description: 'Minute (0 - 59)',
       required: true,
-      type: ApplicationCommandOptionType.Integer
+      type: ApplicationCommandOptionType.Integer,
     },
     {
       name: 'timezone',
       description: 'Timezone (Format: continent/city)',
       required: true,
       type: ApplicationCommandOptionType.String,
-      autocomplete: true
+      autocomplete: true,
     },
     {
       name: 'second',
       description: 'Second (0 - 59)',
       required: false,
-      type: ApplicationCommandOptionType.Integer
+      type: ApplicationCommandOptionType.Integer,
     },
     {
       name: 'public',
       description: 'Should the response be visible to everyone? (Default: False)',
       required: false,
-      type: ApplicationCommandOptionType.Boolean
-    }
-  ]
+      type: ApplicationCommandOptionType.Boolean,
+    },
+  ],
 };
 
 export const CURRENT_TIMESTAMP_COMMAND = {
@@ -74,9 +74,9 @@ export const CURRENT_TIMESTAMP_COMMAND = {
       name: 'public',
       description: 'Should the response be visible to everyone? (Default: False)',
       required: false,
-      type: ApplicationCommandOptionType.Boolean
-    }
-  ]
+      type: ApplicationCommandOptionType.Boolean,
+    },
+  ],
 };
 
 export const INVITE_COMMAND = {
