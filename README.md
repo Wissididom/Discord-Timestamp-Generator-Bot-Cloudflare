@@ -18,7 +18,6 @@ Below is a basic overview of the project structure:
 ├── .github/workflows/ci.yaml -> Github Action configuration
 ├── src
 │   ├── commands.js           -> JSON payloads for commands
-│   ├── reddit.js             -> Interactions with the Reddit API
 │   ├── register.js           -> Sets up commands with the Discord API
 │   ├── server.js             -> Discord app logic and routing
 ├── test
