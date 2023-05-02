@@ -8,7 +8,11 @@ import {
   InteractionType,
   verifyKey,
 } from 'discord-interactions';
-import { TIMESTAMP_COMMAND, CURRENT_TIMESTAMP_COMMAND, INVITE_COMMAND } from './commands.js';
+import {
+  TIMESTAMP_COMMAND,
+  CURRENT_TIMESTAMP_COMMAND,
+  INVITE_COMMAND,
+} from './commands.js';
 
 class JsonResponse extends Response {
   constructor(body, init) {
@@ -57,7 +61,7 @@ router.post('/', async (request, env) => {
           type: 4,
           data: {
             content: `TODO: timestamp`,
-            flags: 64
+            flags: 64,
           },
         });
       }
@@ -67,7 +71,7 @@ router.post('/', async (request, env) => {
           type: 4,
           data: {
             content: `TODO: timestamp`,
-            flags: 64
+            flags: 64,
           },
         });
       }
@@ -78,7 +82,7 @@ router.post('/', async (request, env) => {
           type: 4,
           data: {
             content: INVITE_URL,
-            flags: 64
+            flags: 64,
           },
         });
       }
