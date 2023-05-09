@@ -19,19 +19,19 @@
   "author": "Wissididom <webmaster@wissididom.me>",
   "license": "MIT",
   "dependencies": {
-    "discord-interactions": "^3.3.0",
+    "discord-interactions": "^3.4.0",
     "itty-router": "^3.0.12",
     "luxon": "^3.3.0"
   },
   "devDependencies": {
     "c8": "^7.13.0",
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "mocha": "^10.2.0",
     "ngrok": "^4.3.3",
     "node-fetch": "^3.3.1",
     "prettier": "^2.8.8",
-    "wrangler": "^2.19.0"
+    "wrangler": "^2.20.0"
   }
 }
