@@ -19,7 +19,7 @@
   "author": "Wissididom <webmaster@wissididom.me>",
   "license": "MIT",
   "dependencies": {
-    "discord-interactions": "^3.3.0",
+    "discord-interactions": "^3.4.0",
     "itty-router": "^3.0.12",
     "luxon": "^3.3.0"
   },
