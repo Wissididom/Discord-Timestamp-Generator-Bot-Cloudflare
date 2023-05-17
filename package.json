@@ -13,7 +13,7 @@
     "fix": "eslint --fix '**/*.js'",
     "lint": "eslint '**/*.js'",
     "register": "node src/register.js",
-    "publish": "wrangler publish"
+    "deploy": "wrangler deploy"
   },
   "keywords": [],
   "author": "Wissididom <webmaster@wissididom.me>",
