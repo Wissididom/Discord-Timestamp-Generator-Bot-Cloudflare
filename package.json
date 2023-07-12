@@ -31,7 +31,7 @@
     "mocha": "^10.2.0",
     "ngrok": "^4.3.3",
     "node-fetch": "^3.3.1",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "wrangler": "^3.2.0"
   }
 }
